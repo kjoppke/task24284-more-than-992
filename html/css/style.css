@@ -1,0 +1,48 @@
+@media {
+    min-width: 992px;
+}
+
+.main {
+    color: white;
+    font-size: large;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 300px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.one {
+    background-color: rgb(221, 36, 36);
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.area1 {
+    background-color: rgb(24, 152, 211);
+    flex-basis: 50%;
+}
+
+.area2 {
+    background-color: palevioletred;
+    flex-basis: 25%;
+}
+
+.area3 {
+    background-color: green;
+    flex-basis: 25%;
+}
+
+.footer {
+    background-color: rgb(102, 62, 197);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
